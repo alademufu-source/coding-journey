@@ -1,14 +1,20 @@
 # Coding Journey
 
-This is a small Python starter project for your first coding steps.
+My frontend developer portfolio built with HTML, CSS, and JavaScript.
 
-## What it includes
-- A friendly welcome prompt
-- A tiny number guessing game
+## Projects
 
-## Run it
-```bash
-python app.py
-```
-# coding-journey
-My frontend developer portfolio and JavaScript projects.
+- Personal Portfolio
+- Calculator
+- To-Do List
+- Weather App
+- Digital Clock
+- Movie Search
+
+## Technologies
+
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub

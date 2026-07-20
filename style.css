@@ -10,13 +10,12 @@ body {
     margin: 0;
 }
 
-.container {
-    width: 600px;
-    max-width: 90%;
-    margin: 50px auto;
-    background-color: white;
-    padding: 30px;
-    border-radius: 15px;
+.container{
+    max-width:1200px;
+    width:90%;
+    margin:50px auto;
+    background:transparent;
+    padding:30px;
 }
 
 h1 {
@@ -310,12 +309,12 @@ footer {
         width:90%;
     }
 
-    button{
-        width:100%;
-        margin-top:10px;
-    }
-
+ button{
+    width:100%;
+    margin-top:10px;
 }
+
+} 
 
 .hero{
     text-align:center;
@@ -364,3 +363,58 @@ footer {
 .stat-box p{
     font-size:18px;
 }
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.skill {
+    width: 220px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.skill:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,.15);
+}
+
+.skill h3 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+.skill p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.resume-button {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+}
+
+.projects-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+    margin-top:30px;
+}
+
+.resume-button {
+    text-align: center;
+    margin: 40px 0;
+    width: 100%;
+}
+
